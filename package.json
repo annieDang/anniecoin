@@ -1,0 +1,31 @@
+{
+  "name": "anniecoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose=false",
+    "dev-test": "node src/dev-test.js",
+    "start": "node ./src/app",
+    "dev": "nodemon ./src/app"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.1.7",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.2",
+    "express": "^4.17.1",
+    "uuid": "^3.4.0",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
