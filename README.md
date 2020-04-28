@@ -5,7 +5,7 @@
 ### Test: npm run dev
 ### Run 2servers 
 #### server 1 (HTTPPORT=3000 P2P_PORT=5001): npm run dev
-#### server 1: HTTPPORT=3001 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
+#### server 2: HTTPPORT=3001 P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
 
 ## What I learn
 blockchain basically a bundle of old technologies: 
